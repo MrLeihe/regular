@@ -1,0 +1,31 @@
+{
+  "name": "regular",
+  "version": "1.0.0",
+  "description": "常用正则表达式",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env BABEL_ENV=test jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrLeihe/regular.git"
+  },
+  "keywords": [
+    "regular",
+    "regex"
+  ],
+  "author": "stone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MrLeihe/regular/issues"
+  },
+  "homepage": "https://github.com/MrLeihe/regular#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@types/jest": "^27.0.1",
+    "babel-jest": "^27.0.6",
+    "cross-env": "^7.0.3",
+    "jest": "^27.0.6"
+  }
+}
